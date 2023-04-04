@@ -12,7 +12,7 @@ import streamlit as st
 
 #Loading the Saved Model
 
-loaded_model = pickle.load(open('C:/Users/Lenovo/OneDrive/Desktop/ML_PROJECT_MED_INSURANCE/welltrained_model.sav', 'rb'))
+loaded_model = pickle.load(open('welltrained_model.sav', 'rb'))
 
 #Creating a function for cost prediction
 
